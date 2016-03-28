@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as Actions from '../actions'
 import AppController from '../components/AppController'
-import CONST_FILTER from '../constants/constFilter'
 
 // 将state绑定到props上
 function mapStateToProps(state) {
